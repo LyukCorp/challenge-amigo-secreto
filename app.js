@@ -31,6 +31,7 @@ function limpiarInput() {
 
 function MostrarLista() {
   let nombre = input.value.trim();
+  //alert("El nombre es:" + nombre);
   lista.innerHTML = "";
 
   for (let i = 0; i < nombres.length; i++) {
@@ -42,5 +43,22 @@ function MostrarLista() {
 
 
 function sortearAmigo() {
+  if (nombres.length === 0) {
+    //alert("No Tiene contenido " + nombres.length);
+  } else {
+    //alert("Tiene contenido " + nombres.length);
+    let numeroGenerado = Math.floor(Math.random() * (nombres.length - 1)) + 1;
+    //alert("Numero generado fue:" + numeroGenerado);
 
+    let sorteado = document.getElementById('resultado');
+    sorteado.innerHTML = nombres[numeroGenerado];
+    console.log(numeroGenerado);
+
+    /*
+    for (let i = 0; i < nombres.length; i++) {
+      console.log(Math.floor(Math.random() * nombres.length) + 1)
+
+    }
+      */
+  }
 }
