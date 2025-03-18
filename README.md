@@ -1,6 +1,6 @@
 <h1 align="center"> 🙆 Challenge del amigo secreto 🙆‍♂️ </h1>
 <p>En este desafio se nos inidico desarrollar la logica de programacion de seleccion de un amigo secreto</p>
-<p></p>
+<p>La funcion de este es que el usuario ingrese una serie de nombres siendo validados que no esten vacios el campo y sean almacenados en un arreglo al final el sistema seleccione aleatoriamente un nombre  y lo muestre en pantalla </p>
 
 ### _**Pantalla principal**_
 * _**Ingresar nombres:** La persona que ingrese a la pagina puede ingresar nombres en una lista pero no ingresar campos invalidos como texto vacio_
